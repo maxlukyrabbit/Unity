@@ -1,0 +1,404 @@
+Unity Editor version:    2022.3.4f1 (35713cd46cd7)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.4.1 (Build 22F82)
+Darwin version:          22.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/maksim/Desktop/Гениально/UNITY/ftmaster
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57689
+Successfully changed project path to: /Users/maksim/Desktop/Гениально/UNITY/ftmaster
+/Users/maksim/Desktop/Гениально/UNITY/ftmaster
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8475827712] Host "[IP] 192.168.8.100 [Port] 0 [Flags] 2 [Guid] 1222984596 [EditorId] 1222984596 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-Maksim.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8475827712] Host "[IP] 192.168.8.100 [Port] 0 [Flags] 2 [Guid] 1222984596 [EditorId] 1222984596 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-Maksim.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 8.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/maksim/Desktop/Гениально/UNITY/ftmaster/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56073
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.4f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003669 seconds.
+- Loaded All Assemblies, in  0.441 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.331 seconds
+Domain Reload Profiling: 773ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (183ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (332ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (245ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/maksim/Desktop/Гениально/UNITY/ftmaster/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/maksim/Desktop/Гениально/UNITY/ftmaster/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.888 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.652 seconds
+Domain Reload Profiling: 1541ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (616ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (379ms)
+			TypeCache.Refresh (331ms)
+				TypeCache.ScanAssembly (314ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (653ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (322ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.31 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2968 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (50.3 KB). Loaded Objects now: 3433.
+Memory consumption went from 117.5 MB to 117.4 MB.
+Total: 6.696750 ms (FindLiveObjects: 0.263958 ms CreateObjectMapping: 0.120208 ms MarkObjects: 6.110125 ms  DeleteObjects: 0.201291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 159392.731018 seconds.
+  path: Assets/achievement/Sprite/map/huodong
+  artifactKey: Guid(b5c7067533a6e7444b3da3a4a854a088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/achievement/Sprite/map/huodong using Guid(b5c7067533a6e7444b3da3a4a854a088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7433bf0366a7da170370b24b97bf6a08') in 0.002698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.603649 seconds.
+  path: Assets/achievement/Sprite/map/inst
+  artifactKey: Guid(9bfb074deca5e934bbfc38c7eb47de90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/achievement/Sprite/map/inst using Guid(9bfb074deca5e934bbfc38c7eb47de90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19e5705d660cf8da753e785aadd2c42') in 0.000361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.780335 seconds.
+  path: Assets/achievement/Sprite/map/inst/halujiweng
+  artifactKey: Guid(68ae74500f7fc47499938e7aaa003562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/achievement/Sprite/map/inst/halujiweng using Guid(68ae74500f7fc47499938e7aaa003562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c601af813d34d741b6bc38b4635cc8a') in 0.000421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.080468 seconds.
+  path: Assets/achievement/Sprite/map/inst/halujiweng/image 1.jpg
+  artifactKey: Guid(ccad07cef2350194aa11f12724c5ace5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/achievement/Sprite/map/inst/halujiweng/image 1.jpg using Guid(ccad07cef2350194aa11f12724c5ace5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bc1abf2cd223db50c92b40495896ff') in 0.245805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/achievement/Sprite/map/inst/halujiweng/image 2.png
+  artifactKey: Guid(59133b099f593ea46a0d7f459a7c9298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/achievement/Sprite/map/inst/halujiweng/image 2.png using Guid(59133b099f593ea46a0d7f459a7c9298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6822f5d7fb1d87f70c2573460e7f8f84') in 0.010904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.353583 seconds.
+  path: Assets/achievement/Sprite/map/warbeijing
+  artifactKey: Guid(fa8fc2bd02fffb04ca91da5676c8cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/achievement/Sprite/map/warbeijing using Guid(fa8fc2bd02fffb04ca91da5676c8cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14de681eb117622a6f7ee34a4cff2af7') in 0.000551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.088862 seconds.
+  path: Assets/achievement/Sprite/map/town
+  artifactKey: Guid(47b08551bbb2c874caa24352b068221a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/achievement/Sprite/map/town using Guid(47b08551bbb2c874caa24352b068221a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57e64e3176724929d13a957fa9f4528') in 0.000463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.091584 seconds.
+  path: Assets/achievement/Sprite/map/town/aikestaliya
+  artifactKey: Guid(e07eb26ca084b284eb56115f1b3e9710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/achievement/Sprite/map/town/aikestaliya using Guid(e07eb26ca084b284eb56115f1b3e9710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75423e3407bc9d51c3b31f6146a1c405') in 0.000446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.090073 seconds.
+  path: Assets/achievement/Sprite/map/town/aikestaliya/image 1.jpg
+  artifactKey: Guid(3257317ce6fd2ee459f7517f39167fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/achievement/Sprite/map/town/aikestaliya/image 1.jpg using Guid(3257317ce6fd2ee459f7517f39167fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f494c51e96c0c0e83780a969a0561ff3') in 0.018124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 18.388570 seconds.
+  path: Assets/achievement/Sprite/map/town/aonibasi
+  artifactKey: Guid(8f7f54f91942d2d4fa47758168e65895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/achievement/Sprite/map/town/aonibasi using Guid(8f7f54f91942d2d4fa47758168e65895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e868732c24cc6ab590489648f9fd231') in 0.001827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099790 seconds.
+  path: Assets/achievement/Sprite/map/town/aonibasi/image 1.jpg
+  artifactKey: Guid(9e7bec06f4361634abc1698639598a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/achievement/Sprite/map/town/aonibasi/image 1.jpg using Guid(9e7bec06f4361634abc1698639598a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a486094630f604d69eeb55715618df') in 0.032584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29ad53000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/maksim/Desktop/Гениально/UNITY/ftmaster/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/maksim/Desktop/Гениально/UNITY/ftmaster/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.709 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.794 seconds
+Domain Reload Profiling: 1504ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (500ms)
+		LoadAssemblies (206ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (338ms)
+			TypeCache.Refresh (332ms)
+				TypeCache.ScanAssembly (315ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (795ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (350ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2961 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.1 KB). Loaded Objects now: 3448.
+Memory consumption went from 123.1 MB to 123.1 MB.
+Total: 5.371792 ms (FindLiveObjects: 0.222250 ms CreateObjectMapping: 0.097791 ms MarkObjects: 4.980792 ms  DeleteObjects: 0.069917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x291b9f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/maksim/Desktop/Гениально/UNITY/ftmaster/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/maksim/Desktop/Гениально/UNITY/ftmaster/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.612 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.674 seconds
+Domain Reload Profiling: 1286ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (403ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (225ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (675ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2962 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.1 KB). Loaded Objects now: 3451.
+Memory consumption went from 128.0 MB to 128.0 MB.
+Total: 3.548417 ms (FindLiveObjects: 0.161334 ms CreateObjectMapping: 0.059291 ms MarkObjects: 3.237542 ms  DeleteObjects: 0.089292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
